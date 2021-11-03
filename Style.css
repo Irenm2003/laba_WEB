@@ -1,0 +1,41 @@
+body{
+    background-color:#EBD9DD;
+    font-family: cursive;
+}
+div{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color:#C170D4;
+    width: 10%;
+    
+}
+sub{
+    color:chartreuse;
+}
+a{
+    color:#9182C4;
+    text-decoration:underline;
+}
+.color{
+    color: #486989 ;
+}
+#firs{
+    font-variant:small-caps;
+    line-height: 50px;
+    font-weight:800;
+}
+a:hover{
+    color:#2E35B0;
+    font-weight:800;
+    text-decoration: none;
+}
+a{
+    color: red;
+}
+
