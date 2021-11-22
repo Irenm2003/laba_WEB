@@ -1,0 +1,107 @@
+body{/*стилі до всього файлу*/
+    margin: 0px;
+    padding: 0px;
+}
+nav{/*поле для навігаційної панелі*/
+    height: 10%;
+    background-color: royalblue;
+    display: flex;
+    width: 100%;
+}
+header{/*"Шапка" сайту*/
+    height: 70%;
+    display: flex;
+    width: 100%;
+}
+section{ /*материнський блок для div*/
+    height: 97%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#main_blok{
+    height: 85%;
+    display: inline-flex;
+    width: 85%;
+}
+#main_bloc{/*материнський блок для всього вмісту*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#orange{/*материнський блок для ВСІХ помаранчевих блоків*/
+    width: 100%;
+    height: auto;
+    min-height: 99%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top-width: 7vh;
+    border-bottom-width: 7vh;
+    border-left-width: 10vw;
+    border-right-width: 10vw;
+}
+p{/*верхній блок*/
+    display: flex;
+    height: 20%;
+    width: 100%;
+    margin-top:0px;
+    margin-bottom: 75px;
+    max-height:21%;
+    min-height: 19%;
+}
+#bloks{/*материнський блок в якому знаходяться два нижніх блоки*/
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+.orange_box{/*клас стилів для ВСІХ помаранчевих блоків*/
+    display: flex;
+    width: 48%;
+    height: auto;
+    flex-direction: column;
+}
+#bettwen_indent{/*блок "відступ" між кольровими блоками*/
+    width:4%;
+    height: auto;
+}
+.dark_orange{ /*стилі до темно помаранчевих блоків*/
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.light_orange{ /*стилі до всітло помаранчевих блоків*/
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#blok{/*блок що розташовується перед футером макету*/
+    height: 7%;
+    display: flex;
+    width: 100%;
+    background-color: silver;
+}
+footer{/*блок-фунер - це кінечний блок макету*/
+    height: 20%;
+    background-color: black;
+    align-items: center;
+    margin: auto;
+    color: aliceblue;
+}
+.photo{/*клас стилів для фото*/
+    width: 100%;
+}
+#name_site{/*клас стилів для назви сайту*/
+    color: beige;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+center{/*властивості для футера сайту*/
+    align-items: center;
+    margin: auto;
+}
